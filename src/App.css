@@ -1,0 +1,53 @@
+* {
+  font-family: sans-serif;
+  background-color: pink;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5vh;
+}
+
+input, button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  border: 1px solid gray;
+  background: whitesmoke;
+  margin-right: 5px;
+}
+
+button:nth-last-child(2),
+button:last-child {
+  background: black;
+  color: white;
+}
+
+.num-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100px;
+}
+
+.num-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
